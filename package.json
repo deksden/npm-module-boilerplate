@@ -31,6 +31,14 @@
     "javascript",
     "standard"
   ],
+  "release-it": {
+    "hooks": {
+      "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+    },
+    "github": {
+      "release": true
+    }
+  },
   "author": "Dinesh Pandiyan <flexdinesh@gmail.com>, with modifications by deksden@deksden.com",
   "license": "MIT",
   "bugs": {
