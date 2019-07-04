@@ -7,6 +7,7 @@
 * code style changed to `standard` via `eslint-config-standard` instead of AirBnB-style.
 * `babel-plugin-exports` configured to automatically add `.default`
 * minor bumps of package versions 
+* `release-it` used to perform release: expect to have GITHUB_TOKEN in env
  
 ## Description
  
